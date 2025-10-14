@@ -12,7 +12,7 @@ export default function FeaturesSection() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 px-10 md:px-0">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-10 md:px-0">
         {/* Card 1: 1,500+ Fonts */}
         <div className="bg-white/20 rounded-[30px] shadow-lg p-6">
           <div className="bg-white/50 rounded-[20px] flex items-center justify-center mb-10 w-14 h-14">
@@ -24,30 +24,13 @@ export default function FeaturesSection() {
               className="w-6 h-6"
             />
           </div>
-          <h3 className="font-[600] text-[20px] mb-2">1,500+ Fonts</h3>
+          <h3 className="font-[600] text-[20px] mb-2">Text Customization</h3>
           <p className="text-[14px] font-[400]">
-            Select over 1,500 fonts for your timer text
+            Select over 1,500 fonts for your timer text, with different colors and sizes
           </p>
         </div>
 
-        {/* Card 2: Unlimited Colors */}
-        <div className="bg-white/20 rounded-[30px] shadow-lg p-6">
-          <div className="bg-white/50 rounded-[20px] flex items-center justify-center mb-10 w-14 h-14">
-            <Image
-              src="/ic-color.svg"
-              alt="Colors Icon"
-              width={24}
-              height={24}
-              className="w-6 h-6"
-            />
-          </div>
-          <h3 className="font-[600] text-[20px] mb-2">Unlimited Colors</h3>
-          <p className="text-[14px] font-[400]">
-            Custom your timer and background with colors
-          </p>
-        </div>
-
-        {/* Card 3: Background Gradients */}
+        {/* Card 2: Custom Background */}
         <div className="bg-white/20 rounded-[30px] shadow-lg p-6">
           <div className="bg-white/50 rounded-[20px] flex items-center justify-center mb-10 w-14 h-14">
             <Image
@@ -58,26 +41,26 @@ export default function FeaturesSection() {
               className="w-6 h-6"
             />
           </div>
-          <h3 className="font-[600] text-[20px] mb-2">Background Gradients</h3>
+          <h3 className="font-[600] text-[20px] mb-2">Background Customization</h3>
           <p className="text-[14px] font-[400]">
-            Personalize your background with beautiful gradients
+            Personalize your background with colors, gradients and images
           </p>
         </div>
 
-        {/* Card 4: Custom Images */}
+        {/* Card 3: Focus Lock */}
         <div className="bg-white/20 rounded-[30px] shadow-lg p-6">
           <div className="bg-white/50 rounded-[20px] flex items-center justify-center mb-10 w-14 h-14">
             <Image
-              src="/ic-image.svg"
-              alt="Image Icon"
+              src="/ic-lock.svg"
+              alt="Focus Lock Icon"
               width={24}
               height={24}
               className="w-6 h-6"
             />
           </div>
-          <h3 className="font-[600] text-[20px] mb-2">Custom Images</h3>
+          <h3 className="font-[600] text-[20px] mb-2">Focus Lock</h3>
           <p className="text-[14px] font-[400]">
-            Use your images to make it feel like you
+            Block apps during your focus sessions, minimizing distractions
           </p>
         </div>
       </div>

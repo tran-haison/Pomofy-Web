@@ -44,43 +44,25 @@ export default function HeroSection() {
         <div className="space-y-8">
           <div className="flex items-center space-x-4">
             <Image
-              src="/ic-font.svg"
-              alt="Fonts Icon"
+              src="/ic-timer.svg"
+              alt="Timer Icon"
               width={24}
               height={24}
               className="w-6 h-6"
             />
-            <span className="text-[20px] font-[600]">1,500+ FONTS</span>
+            <span className="text-[20px] font-[600]">CUSTOMIZABLE TIMER</span>
           </div>
           <div className="flex items-center space-x-4">
             <Image
-              src="/ic-color.svg"
-              alt="Palette Icon"
+              src="/ic-lock.svg"
+              alt="Focus Lock Icon"
               width={24}
               height={24}
               className="w-6 h-6"
             />
-            <span className="text-[20px] font-[600]">UNLIMITED COLORS</span>
-          </div>
-          <div className="flex items-center space-x-4">
-            <Image
-              src="/ic-background.svg"
-              alt="Gradient Icon"
-              width={24}
-              height={24}
-              className="w-6 h-6"
-            />
-            <span className="text-[20px] font-[600]">BACKGROUND GRADIENTS</span>
-          </div>
-          <div className="flex items-center space-x-4">
-            <Image
-              src="/ic-image.svg"
-              alt="Image Icon"
-              width={24}
-              height={24}
-              className="w-6 h-6"
-            />
-            <span className="text-[20px] font-[600]">CUSTOM IMAGES</span>
+            <span className="text-[20px] font-[600]">
+              BLOCK DISTRACTING APPS
+            </span>
           </div>
         </div>
       </div>
