@@ -16,7 +16,7 @@ export default function SupportPage() {
             <h1 className="text-[40px] font-[700] mb-4">
               Pomofy Support & Documentation
             </h1>
-            <p className="text-gray-600">Last updated: July 2025</p>
+            <p className="text-gray-600">Last updated: October 2025</p>
           </div>
 
           <div className="space-y-6 text-gray-700">
@@ -174,6 +174,79 @@ export default function SupportPage() {
               <h2 className="text-[24px] font-[600] mb-3">2. Core Features</h2>
 
               <div className="space-y-4">
+                <div>
+                  <h3 className="text-[20px] font-[500] mb-2">Focus Lock</h3>
+                  <p className="text-[16px] leading-relaxed mb-4">
+                    Focus Lock is Pomofy&apos;s advanced feature that helps you
+                    maintain concentration by blocking distracting apps during
+                    your work sessions. When enabled, it prevents you from
+                    accessing selected apps until your timer session completes.
+                  </p>
+
+                  <h4 className="text-[18px] font-[500] mb-2">
+                    How Focus Lock Works
+                  </h4>
+                  <ul className="list-disc list-inside space-y-1 ml-4 mb-4">
+                    <li>
+                      <strong>iOS</strong>: Uses Apple&apos;s Screen Time API to
+                      block selected apps during work sessions
+                    </li>
+                    <li>
+                      <strong>Android</strong>: Automatically blocks all
+                      non-system apps while allowing system apps to function
+                    </li>
+                    <li>
+                      <strong>App Selection (iOS)</strong>: Choose which apps to
+                      block using Apple&apos;s Family Activity Picker
+                    </li>
+                    <li>
+                      <strong>Automatic Blocking (Android)</strong>: Blocks all
+                      user-installed apps while keeping system apps accessible
+                    </li>
+                  </ul>
+
+                  <h4 className="text-[18px] font-[500] mb-2">
+                    Enabling Focus Lock
+                  </h4>
+                  <ol className="list-decimal list-inside space-y-1 ml-4 mb-4">
+                    <li>Open Pomofy and go to Settings</li>
+                    <li>Find the Focus Lock toggle</li>
+                    <li>Turn on Focus Lock</li>
+                    <li>
+                      <strong>iOS</strong>: Grant required permissions and
+                      select apps to block when prompted
+                    </li>
+                    <li>
+                      <strong>Android</strong>: Grant required permissions
+                      (Overlay and Usage Access)
+                    </li>
+                    <li>
+                      Start your timer - Focus Lock activates automatically
+                    </li>
+                  </ol>
+
+                  <h4 className="text-[18px] font-[500] mb-2">
+                    Focus Lock Behavior
+                  </h4>
+                  <ul className="list-disc list-inside space-y-1 ml-4">
+                    <li>Focus Lock only activates when a timer is running</li>
+                    <li>
+                      You cannot disable Focus Lock while a timer is active
+                    </li>
+                    <li>
+                      Apps are automatically unblocked when the timer completes
+                    </li>
+                    <li>
+                      <strong>iOS</strong>: Blocked apps show a &quot;Restricted&quot;
+                      message
+                    </li>
+                    <li>
+                      <strong>Android</strong>: Blocked apps show an &quot;App
+                      Restricted&quot; message
+                    </li>
+                  </ul>
+                </div>
+
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
                     Timer Controls
@@ -576,6 +649,56 @@ export default function SupportPage() {
                         </li>
                       </ul>
                     </div>
+
+                    <div>
+                      <h4 className="text-[18px] font-[500] mb-2">
+                        Focus Lock Not Working
+                      </h4>
+                      <ul className="list-disc list-inside space-y-1 ml-4">
+                        <li>
+                          <strong>Check permissions:</strong> Ensure all
+                          required permissions are granted
+                        </li>
+                        <li>
+                          <strong>iOS:</strong> Verify Screen Time is enabled in
+                          device Settings
+                        </li>
+                        <li>
+                          <strong>Android:</strong> Check Overlay and Usage
+                          Access permissions
+                        </li>
+                        <li>
+                          <strong>Restart app:</strong> Close and reopen Pomofy
+                        </li>
+                        <li>
+                          <strong>Restart device:</strong> If issues persist
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h4 className="text-[18px] font-[500] mb-2">
+                        Apps Not Being Blocked
+                      </h4>
+                      <ul className="list-disc list-inside space-y-1 ml-4">
+                        <li>
+                          <strong>iOS:</strong> Check if apps are selected in
+                          Blocked Apps settings
+                        </li>
+                        <li>
+                          <strong>Android:</strong> Ensure system apps are
+                          allowed (they won&apos;t be blocked)
+                        </li>
+                        <li>
+                          <strong>Timer running:</strong> Focus Lock only works
+                          when timer starts running
+                        </li>
+                        <li>
+                          <strong>Permissions:</strong> Re-grant permissions if
+                          needed
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
 
@@ -955,6 +1078,73 @@ export default function SupportPage() {
                     </div>
                   </div>
                 </div>
+
+                <div>
+                  <h3 className="text-[20px] font-[500] mb-3">
+                    Focus Lock Questions
+                  </h3>
+
+                  <div className="space-y-4">
+                    <div>
+                      <h4 className="text-[18px] font-[500] mb-2">
+                        Q: What is Focus Lock?
+                      </h4>
+                      <p className="text-[16px] leading-relaxed">
+                        A: Focus Lock is a feature that blocks distracting apps
+                        during your work sessions to help you maintain
+                        concentration. It prevents you from accessing selected
+                        apps until your timer session completes.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h4 className="text-[18px] font-[500] mb-2">
+                        Q: How do I enable Focus Lock?
+                      </h4>
+                      <p className="text-[16px] leading-relaxed">
+                        A: Go to Settings → Focus Lock → Turn on the toggle. On
+                        iOS, you&apos;ll be prompted to select apps to block. On
+                        Android, you&apos;ll need to grant required permissions.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h4 className="text-[18px] font-[500] mb-2">
+                        Q: Why can&apos;t I disable Focus Lock while timer is
+                        running?
+                      </h4>
+                      <p className="text-[16px] leading-relaxed">
+                        A: This is by design to ensure you complete your work
+                        session. Focus Lock prevents distractions and can only
+                        be disabled when no timer is active.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h4 className="text-[18px] font-[500] mb-2">
+                        Q: Can I choose which apps to block on Android?
+                      </h4>
+                      <p className="text-[16px] leading-relaxed">
+                        A: On Android, Focus Lock automatically blocks all
+                        non-system apps while keeping system apps accessible.
+                        This ensures comprehensive blocking without manual
+                        configuration.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h4 className="text-[18px] font-[500] mb-2">
+                        Q: What permissions does Focus Lock need?
+                      </h4>
+                      <p className="text-[16px] leading-relaxed">
+                        A: iOS requires Screen Time permission and Family
+                        Activity Selection. Android requires System Alert Window
+                        (Draw overlay) and Usage Access permissions. These are
+                        only used for app blocking functionality.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </section>
 
@@ -968,7 +1158,7 @@ export default function SupportPage() {
               </p>
               <p className="text-[20px] font-[600]">Happy focusing! 🎯</p>
               <p className="text-[14px] text-gray-600 mt-4">
-                Last updated: July 2025
+                Last updated: October 2025
                 <br />
                 Support Email:{" "}
                 <a

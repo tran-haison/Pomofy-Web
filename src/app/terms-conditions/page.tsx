@@ -16,7 +16,7 @@ export default function TermsConditions() {
             <h1 className="text-[40px] font-[700] mb-4">
               Terms and Conditions
             </h1>
-            <p className="text-gray-600">Last updated: July 2025</p>
+            <p className="text-gray-600">Last updated: October 2025</p>
           </div>
 
           <div className="space-y-6 text-gray-700">
@@ -45,6 +45,7 @@ export default function TermsConditions() {
                 <li>Session tracking and statistics</li>
                 <li>Background customization</li>
                 <li>Text customization options</li>
+                <li>Focus Lock feature for app blocking</li>
                 <li>Data export capabilities (Pro users)</li>
               </ul>
             </section>
@@ -136,7 +137,8 @@ export default function TermsConditions() {
                       <strong>Price</strong>: $9.99
                     </li>
                     <li>
-                      <strong>Length of subscription</strong>: Lifetime (one-time payment)
+                      <strong>Length of subscription</strong>: Lifetime
+                      (one-time payment)
                     </li>
                     <li>
                       <strong>Features</strong>:
@@ -159,14 +161,11 @@ export default function TermsConditions() {
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
-                      Pro subscription is a one-time payment with lifetime access
+                      Pro subscription is a one-time payment with lifetime
+                      access
                     </li>
-                    <li>
-                      Payment is processed through your app store account
-                    </li>
-                    <li>
-                      No recurring billing or automatic renewals
-                    </li>
+                    <li>Payment is processed through your app store account</li>
+                    <li>No recurring billing or automatic renewals</li>
                   </ul>
                 </div>
 
@@ -176,11 +175,10 @@ export default function TermsConditions() {
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
-                      Pro lifetime subscriptions cannot be cancelled once purchased
+                      Pro lifetime subscriptions cannot be cancelled once
+                      purchased
                     </li>
-                    <li>
-                      Refunds are subject to app store policies
-                    </li>
+                    <li>Refunds are subject to app store policies</li>
                     <li>
                       Pro features remain available for the lifetime of the app
                     </li>
@@ -218,6 +216,8 @@ export default function TermsConditions() {
                     <li>Use the App to harm others or their property</li>
                     <li>Share your account credentials with others</li>
                     <li>Use automated systems to access the App</li>
+                    <li>Circumvent or disable Focus Lock features</li>
+                    <li>Use Focus Lock to block essential system functions</li>
                   </ul>
                 </div>
               </div>
@@ -225,13 +225,106 @@ export default function TermsConditions() {
 
             <section>
               <h2 className="text-[24px] font-[600] mb-3">
-                6. Privacy and Data
+                6. Focus Lock Feature
               </h2>
 
               <div className="space-y-4">
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    6.1 Data Collection
+                    6.1 Feature Description
+                  </h3>
+                  <ul className="list-disc list-inside space-y-1 ml-4">
+                    <li>
+                      Focus Lock is a feature that blocks access to selected
+                      apps during work sessions
+                    </li>
+                    <li>
+                      The feature helps users maintain concentration by
+                      preventing distractions
+                    </li>
+                    <li>
+                      Focus Lock is available on both iOS and Android platforms
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-[20px] font-[500] mb-2">
+                    6.2 Required Permissions
+                  </h3>
+                  <ul className="list-disc list-inside space-y-1 ml-4">
+                    <li>
+                      <strong>iOS</strong>: Screen Time permission and Family
+                      Activity Selection access
+                    </li>
+                    <li>
+                      <strong>Android</strong>: System Alert Window (Draw
+                      overlay over other apps) and Usage Access permissions
+                    </li>
+                    <li>
+                      These permissions are required for the app blocking
+                      functionality to work
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-[20px] font-[500] mb-2">
+                    6.3 User Responsibilities
+                  </h3>
+                  <ul className="list-disc list-inside space-y-1 ml-4">
+                    <li>
+                      You are responsible for managing which apps are blocked
+                    </li>
+                    <li>
+                      Do not block essential system apps or emergency services
+                    </li>
+                    <li>
+                      Ensure you have access to important apps for safety and
+                      emergency purposes
+                    </li>
+                    <li>
+                      Focus Lock cannot be disabled while a timer session is
+                      active
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-[20px] font-[500] mb-2">
+                    6.4 Limitations
+                  </h3>
+                  <ul className="list-disc list-inside space-y-1 ml-4">
+                    <li>
+                      Focus Lock may not work on all devices or operating system
+                      versions
+                    </li>
+                    <li>
+                      Some system-level apps cannot be blocked for security
+                      reasons
+                    </li>
+                    <li>
+                      We are not responsible for any consequences of using Focus
+                      Lock
+                    </li>
+                    <li>
+                      Users should test the feature before relying on it for
+                      important work sessions
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-[24px] font-[600] mb-3">
+                7. Privacy and Data
+              </h2>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="text-[20px] font-[500] mb-2">
+                    7.1 Data Collection
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
@@ -242,12 +335,16 @@ export default function TermsConditions() {
                       Session statistics may be stored to improve user
                       experience
                     </li>
+                    <li>
+                      Focus Lock settings and blocked app selections are stored
+                      locally
+                    </li>
                   </ul>
                 </div>
 
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    6.2 Data Usage
+                    7.2 Data Usage
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>Your data is used solely to provide App services</li>
@@ -258,12 +355,16 @@ export default function TermsConditions() {
                     <li>
                       Data is processed in accordance with our Privacy Policy
                     </li>
+                    <li>
+                      Focus Lock data is used only for app blocking
+                      functionality
+                    </li>
                   </ul>
                 </div>
 
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    6.3 Data Export
+                    7.3 Data Export
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>Pro users may export their session data</li>
@@ -276,13 +377,13 @@ export default function TermsConditions() {
 
             <section>
               <h2 className="text-[24px] font-[600] mb-3">
-                7. Intellectual Property
+                8. Intellectual Property
               </h2>
 
               <div className="space-y-4">
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    7.1 App Ownership
+                    8.1 App Ownership
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
@@ -298,7 +399,7 @@ export default function TermsConditions() {
 
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    7.2 User Content
+                    8.2 User Content
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
@@ -317,13 +418,13 @@ export default function TermsConditions() {
 
             <section>
               <h2 className="text-[24px] font-[600] mb-3">
-                8. Disclaimers and Limitations
+                9. Disclaimers and Limitations
               </h2>
 
               <div className="space-y-4">
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    8.1 Service Availability
+                    9.1 Service Availability
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
@@ -341,7 +442,7 @@ export default function TermsConditions() {
 
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    8.2 Limitation of Liability
+                    9.2 Limitation of Liability
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
@@ -358,7 +459,7 @@ export default function TermsConditions() {
 
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    8.3 Medical Disclaimer
+                    9.3 Medical Disclaimer
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>Pomofy is not a medical or therapeutic tool</li>
@@ -373,13 +474,13 @@ export default function TermsConditions() {
 
             <section>
               <h2 className="text-[24px] font-[600] mb-3">
-                9. Updates and Changes
+                10. Updates and Changes
               </h2>
 
               <div className="space-y-4">
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    9.1 App Updates
+                    10.1 App Updates
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
@@ -392,7 +493,7 @@ export default function TermsConditions() {
 
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    9.2 Terms Updates
+                    10.2 Terms Updates
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>We may update these Terms from time to time</li>
@@ -407,12 +508,12 @@ export default function TermsConditions() {
             </section>
 
             <section>
-              <h2 className="text-[24px] font-[600] mb-3">10. Termination</h2>
+              <h2 className="text-[24px] font-[600] mb-3">11. Termination</h2>
 
               <div className="space-y-4">
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    10.1 User Termination
+                    11.1 User Termination
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>You may stop using the App at any time</li>
@@ -429,7 +530,7 @@ export default function TermsConditions() {
 
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    10.2 Service Termination
+                    11.2 Service Termination
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
@@ -446,12 +547,12 @@ export default function TermsConditions() {
             </section>
 
             <section>
-              <h2 className="text-[24px] font-[600] mb-3">11. Governing Law</h2>
+              <h2 className="text-[24px] font-[600] mb-3">12. Governing Law</h2>
 
               <div className="space-y-4">
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    11.1 Jurisdiction
+                    12.1 Jurisdiction
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
@@ -467,7 +568,7 @@ export default function TermsConditions() {
 
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    11.2 Severability
+                    12.2 Severability
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
@@ -485,12 +586,12 @@ export default function TermsConditions() {
 
             <section>
               <h2 className="text-[24px] font-[600] mb-3">
-                12. Contact Information
+                13. Contact Information
               </h2>
 
               <div className="space-y-4">
                 <div>
-                  <h3 className="text-[20px] font-[500] mb-2">12.1 Support</h3>
+                  <h3 className="text-[20px] font-[500] mb-2">13.1 Support</h3>
                   <p className="text-[16px] leading-relaxed">
                     For questions about these Terms or the App:
                   </p>
@@ -511,7 +612,7 @@ export default function TermsConditions() {
 
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    12.2 Legal Notices
+                    13.2 Legal Notices
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
@@ -530,13 +631,13 @@ export default function TermsConditions() {
 
             <section>
               <h2 className="text-[24px] font-[600] mb-3">
-                13. Third-Party Services
+                14. Third-Party Services
               </h2>
 
               <div className="space-y-4">
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    13.1 App Store Terms
+                    14.1 App Store Terms
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
@@ -550,7 +651,7 @@ export default function TermsConditions() {
 
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    13.2 Third-Party Integrations
+                    14.2 Third-Party Integrations
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>The App may integrate with third-party services</li>
@@ -568,12 +669,12 @@ export default function TermsConditions() {
             </section>
 
             <section>
-              <h2 className="text-[24px] font-[600] mb-3">14. Force Majeure</h2>
+              <h2 className="text-[24px] font-[600] mb-3">15. Force Majeure</h2>
 
               <div className="space-y-4">
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    14.1 Unforeseen Circumstances
+                    15.1 Unforeseen Circumstances
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
@@ -595,13 +696,13 @@ export default function TermsConditions() {
 
             <section>
               <h2 className="text-[24px] font-[600] mb-3">
-                15. Entire Agreement
+                16. Entire Agreement
               </h2>
 
               <div className="space-y-4">
                 <div>
                   <h3 className="text-[20px] font-[500] mb-2">
-                    15.1 Complete Terms
+                    16.1 Complete Terms
                   </h3>
                   <ul className="list-disc list-inside space-y-1 ml-4">
                     <li>
@@ -619,7 +720,7 @@ export default function TermsConditions() {
 
             <section>
               <h2 className="text-[24px] font-[600] mb-3">
-                16. Acknowledgment
+                17. Acknowledgment
               </h2>
               <p className="text-[16px] leading-relaxed">
                 By using Pomofy, you acknowledge that:

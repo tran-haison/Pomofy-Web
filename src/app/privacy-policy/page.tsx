@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
             <h1 className="text-[40px] font-[700] mb-4">
               Privacy Policy for Pomofy
             </h1>
-            <p className="text-gray-600">Last updated: July 2025</p>
+            <p className="text-gray-600">Last updated: October 2025</p>
           </div>
 
           <div className="space-y-6 text-gray-700">
@@ -75,6 +75,10 @@ export default function PrivacyPolicy() {
                       sound notifications.
                     </li>
                     <li>
+                      <strong>Focus Lock Settings</strong>: Your selected
+                      blocked apps (iOS only) and Focus Lock preferences.
+                    </li>
+                    <li>
                       <strong>Usage Analytics</strong>: How you interact with
                       the app, including feature usage and app performance data.
                     </li>
@@ -126,6 +130,10 @@ export default function PrivacyPolicy() {
                     <li>
                       <strong>App Functionality</strong>: To remember your
                       preferences and provide personalized timer experiences.
+                    </li>
+                    <li>
+                      <strong>Focus Lock</strong>: To block distracting apps
+                      during your work sessions and maintain focus.
                     </li>
                   </ul>
                 </div>
@@ -248,6 +256,76 @@ export default function PrivacyPolicy() {
                       <strong>Subscription Management</strong>: We use
                       RevenueCat to manage premium subscriptions and payment
                       processing.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-[24px] font-[600] mb-3">
+                Focus Lock Permissions
+              </h2>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="text-[20px] font-[500] mb-2">
+                    iOS Permissions
+                  </h3>
+                  <ul className="list-disc list-inside space-y-1 ml-4">
+                    <li>
+                      <strong>Screen Time Permission</strong>: Required for app
+                      blocking functionality. This permission allows Pomofy to
+                      restrict access to selected apps during work sessions.
+                    </li>
+                    <li>
+                      <strong>Family Activity Selection</strong>: Used to let
+                      you choose which apps to block during focus sessions.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-[20px] font-[500] mb-2">
+                    Android Permissions
+                  </h3>
+                  <ul className="list-disc list-inside space-y-1 ml-4">
+                    <li>
+                      <strong>System Alert Window</strong>: Required to display
+                      overlay notifications when you try to access blocked apps.
+                    </li>
+                    <li>
+                      <strong>Package Usage Stats</strong>: Required to monitor
+                      which apps are currently in use and detect when you switch
+                      to blocked applications.
+                    </li>
+                    <li>
+                      <strong>Boot Completed</strong>: Allows the app to
+                      automatically restart Focus Lock after device reboot if a
+                      timer session was active.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-[20px] font-[500] mb-2">
+                    Permission Usage
+                  </h3>
+                  <ul className="list-disc list-inside space-y-1 ml-4">
+                    <li>
+                      These permissions are used exclusively for the Focus Lock
+                      feature to help you maintain concentration during work
+                      sessions.
+                    </li>
+                    <li>
+                      We do not collect or store information about your app
+                      usage beyond what is necessary for the blocking
+                      functionality.
+                    </li>
+                    <li>
+                      You can disable Focus Lock only when the timer completes,
+                      which will stop all app monitoring and blocking
+                      activities.
                     </li>
                   </ul>
                 </div>
