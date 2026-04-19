@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@types/nodemailer": "^6.4.17",
-    "next": "15.4.3",
+    "next": "15.4.10",
     "nodemailer": "^7.0.5",
     "react": "19.1.0",
     "react-dom": "19.1.0"
